@@ -1,0 +1,24 @@
+server:
+  port: 8088
+
+spring:
+  application:
+    name: springboot-dynamic-tp
+
+management:
+  metrics:
+    export:
+      prometheus:
+        enabled: true
+  endpoints:
+    web:
+      exposure:
+        include: '*'   # 测试使用，线上不要用*，按需开启
+
+apollo:
+  bootstrap:
+    enabled: true
+    namespaces: application,dynamic-tp-apollo-demo-dtp.yml
+  meta: http://localhost:8080
+app:
+  id: springboot-dynamic-tp
