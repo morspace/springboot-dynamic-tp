@@ -13,8 +13,8 @@
 #      platforms:                              # 通知报警平台配置
 #        - platform: ding
 #          platformId: ding                            # 平台id
-#          urlKey: 47895dbe33970bdeab3fbff3e83e6d48ed7fc17447317407de639112080f4f33     # 替换
-#          receivers: 13249763597                   # 钉钉账号手机号
+#          urlKey:   xxx   # 替换
+#          receivers: xxxx                   # 钉钉账号手机号
 #
 #      executors:                                   # 动态线程池配置，都有默认值，采用默认值的可以不配置该项，减少配置量
 #        - threadPoolName: dtpExecutor1
