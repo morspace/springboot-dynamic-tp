@@ -5,7 +5,7 @@
 #      enabledBanner: true        # 是否开启banner打印，默认true
 #      enabledCollect: true                    # 是否开启监控指标采集，默认false
 #      collectorTypes: micrometer,logging      # 监控数据采集器类型（logging | micrometer | internal_logging），默认micrometer
-#      logPath: /Users/mojianhan/PracticeProject/dynamic-logs                     # 监控日志数据路径，默认 ${user.home}/logs，采集类型非logging不用配置
+#      logPath: /Users/xx/xx/dynamic-logs                     # 监控日志数据路径，默认 ${user.home}/logs，采集类型非logging不用配置
 #      monitorInterval: 5                      # 监控时间间隔（报警检测、指标采集），默认5s
 #      apollo: # apollo配置，不配置默认拿apollo配置第一个namespace
 #        namespace: dynamic-tp-apollo-demo-dtp.yml
